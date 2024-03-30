@@ -1,4 +1,4 @@
-# [💻 live-terminal - build terminal styled websites in minutes!](https://live-terminal.vercel.app)
+# [💻 live-terminal - build terminal styled websites in minutes!](https://terminal.gabrielbizzi.com.br)
 
 Highly customizable, easy-to-use, and minimal terminal styled website template, powered by Next.js.
 
@@ -6,23 +6,9 @@ Building a simple website with live-terminal only takes **minutes**, and you onl
 
 live-terminal can be used to build a variety of websites:
 
-- [personal website](gabrielbizzi.com.br)
-- [browser startpage](terminal.gabrielbizzi.com.br)
-- or maybe just a cool browser music player...be creative!
-
+- [personal website](https://me.gabrielbizzi.com.br)
+- [browser startpage](https://terminal.gabrielbizzi.com.br)
 Feel free to play with the web demo above!
-
-## 📸 Showcase
-
-<p align="center">
-<img src="./demo/demo.gif" width="600"><br>
-<strong>live-terminal with different themes</strong>
-</p>
-
-<p align="center">
-<img src="./demo/me.png" width="600"><br>
-<strong><a href="gabrielbizzi.com.br" target=_blank>my personal website</a></strong>
-</p>
 
 ## 🚀 Ship your live-terminal site in less than 5 minutes
 
