@@ -1,15 +1,15 @@
 #!/bin/sh
-# This script installs LiveTerm.
+# This script installs live-terminal.
 #
-# Found a bug? Report it here: https://github.com/Cveinnt/LiveTerm/issues
+# Found a bug? Report it here: https://github.com/GabrielBizzi/live-terminal/issues
 
 set -e -u
 
-eval "git clone 'https://github.com/Cveinnt/LiveTerm.git'"
+eval "git clone 'https://github.com/GabrielBizzi/live-terminal.git'"
 
-cd LiveTerm
+cd live-terminal
 
-echo "LiveTerm cloned! Installing dependencies..."
+echo "live-terminal cloned! Installing dependencies..."
 
 if command -v yarn >/dev/null 2>&1 ; then
   yarn install
@@ -44,10 +44,10 @@ cat <<-'EOM'
 ░░░░░░░░░░░ ░░░░░    ░░░░░     ░░░░░░     ░░░░░     ░░░░░░  ░░░░░     ░░░░░ ░░░ ░░░░░ 
                                                                                 
 
-LiveTerm has been downloaded to the current directory.
+live-terminal has been downloaded to the current directory.
 You can start developing it with:
 
-cd LiveTerm && yarn dev
+cd live-terminal && yarn dev
 
 This will open a local port at http://localhost:3000, 
 where you can preview your website. To apply changes, edit:

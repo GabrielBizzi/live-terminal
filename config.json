@@ -1,21 +1,17 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
-  "ascii": "liveterm",
+  "readmeUrl": "https://raw.githubusercontent.com/GabrielBizzi/GabrielBizzi/master/README.md",
+  "title": "live-terminal",
+  "name": "Gabriel Bizzi",
+  "ascii": "koda",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "GabrielBizzi",
+    "linkedin": "gabriel-bizzi"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
-  "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
+  "email": "blitzcorvinato@gmail.com",
+  "ps1_hostname": "root",
+  "ps1_username": "root",
+  "repo": "https://github.com/GabrielBizzi/live-terminal",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
-  "donate_urls": {
-    "paypal": "https://paypal.me/cveinnt",
-    "patreon": "https://patreon.com/cveinnt"
-  },
   "colors": {
     "light": {
       "background": "#FBF1C9",

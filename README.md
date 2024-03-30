@@ -1,14 +1,13 @@
-# [💻 LiveTerm - build terminal styled websites in minutes!](https://liveterm.vercel.app)
+# [💻 live-terminal - build terminal styled websites in minutes!](https://live-terminal.vercel.app)
 
 Highly customizable, easy-to-use, and minimal terminal styled website template, powered by Next.js.
 
-Building a simple website with LiveTerm only takes **minutes**, and you only need to work with **one** file: `config.json`. After you cloned this repository, simply run `yarn install && yarn dev` and start editing `config.json` to build your website!
+Building a simple website with live-terminal only takes **minutes**, and you only need to work with **one** file: `config.json`. After you cloned this repository, simply run `yarn install && yarn dev` and start editing `config.json` to build your website!
 
-LiveTerm can be used to build a variety of websites:
+live-terminal can be used to build a variety of websites:
 
-- [personal website](https://cveinnt.com)
-- [browser startpage](https://livetermstart.vercel.app/)
-- [project page](https://liveterm.vercel.app/)
+- [personal website](gabrielbizzi.com.br)
+- [browser startpage](terminal.gabrielbizzi.com.br)
 - or maybe just a cool browser music player...be creative!
 
 Feel free to play with the web demo above!
@@ -17,28 +16,28 @@ Feel free to play with the web demo above!
 
 <p align="center">
 <img src="./demo/demo.gif" width="600"><br>
-<strong>LiveTerm with different themes</strong>
+<strong>live-terminal with different themes</strong>
 </p>
 
 <p align="center">
-<img src="./demo/cveinnt.png" width="600"><br>
-<strong><a href="https://cveinnt.com" target=_blank>my personal website</a></strong>
+<img src="./demo/me.png" width="600"><br>
+<strong><a href="gabrielbizzi.com.br" target=_blank>my personal website</a></strong>
 </p>
 
-## 🚀 Ship your LiveTerm site in less than 5 minutes
+## 🚀 Ship your live-terminal site in less than 5 minutes
 
-LiveTerm requires the `yarn` package manager. You can install `yarn` [here](https://classic.yarnpkg.com/lang/en/docs/install/).
+live-terminal requires the `yarn` package manager. You can install `yarn` [here](https://classic.yarnpkg.com/lang/en/docs/install/).
 
 Simply run the following commmand in your terminal:
 
 ```bash
-sh -c "$(curl -fsSL https://raw.github.com/Cveinnt/LiveTerm/main/install/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/GabrielBizzi/live-terminal/master/install/install.sh)"
 ```
 
-This will install LiveTerm to the current directory. You can start building your website with:
+This will install live-terminal to the current directory. You can start building your website with:
 
 ```bash
-cd LiveTerm && yarn dev
+cd live-terminal && yarn dev
 ```
 
 Start editing `config.json` and try saving and see the updated changes!
@@ -46,7 +45,7 @@ Start editing `config.json` and try saving and see the updated changes!
 Alternatively, you can clone this repository to a location of your choosing
 
 ```bash
-git clone https://github.com/Cveinnt/LiveTerm.git && cd LiveTerm
+git clone https://github.com/GabrielBizzi/live-terminal.git && cd live-terminal
 ```
 
 Then install dependencies and start developing there:
@@ -64,13 +63,13 @@ docker-compose up -d
 ```
 
 If you **know** what you were doing, you can also try changing `Dockerfile` & `docker-compose.yml`!
-Learn more about Docker [here](https://docs.docker.com/get-started/overview/ 'here').
+Learn more about Docker [here](https://docs.docker.com/get-started/overview/ "here").
 
 ## 📄 Configuration
 
 ### Basic Configuration
 
-90% of LiveTerm's configurations are done through the `config.json` file.
+90% of live-terminal's configurations are done through the `config.json` file.
 
 ```javascript
 {
@@ -83,7 +82,7 @@ Learn more about Docker [here](https://docs.docker.com/get-started/overview/ 'he
     "linkedin": // your handle
   },
   "email": // your email
-  "ps1_hostname": "liveterm" // hostname in prompt
+  "ps1_hostname": "live-terminal" // hostname in prompt
   "ps1_username": "visitor", // username in prompt
   "resume_url": "../resume.pdf", // path to your resume
   "non_terminal_url": "W",
